@@ -11,9 +11,8 @@ function handleResize() {
 }
 
 window.addEventListener("resize", handleResize);
+// Initial window size
 window.addEventListener("load", handleResize);
 
-// Initial window size
-console.log("Initial window width:", getWindowSize().width);
-console.log("Initial window height:", getWindowSize().height);
+
 
