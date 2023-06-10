@@ -20,3 +20,4 @@ window.addEventListener("resize", handleResize);
 // Initial window size
 console.log("Initial window width:", getWindowSize().width);
 console.log("Initial window height:", getWindowSize().height);
+
